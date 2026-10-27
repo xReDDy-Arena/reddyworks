@@ -2088,3 +2088,46 @@ footer p {
     }
 
 }
+
+/* GAME SELECTOR - FS25 + RUST */
+.game-selector-section { padding: 75px 8%; background: #ebe4d6; }
+.game-selector-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; max-width:1000px; }
+.game-selector-card { min-width:0; padding:30px; display:flex; align-items:center; gap:22px; background:#fff; color:#17231a; text-decoration:none; border:1px solid #dedbd2; border-radius:18px; box-shadow:0 10px 30px rgba(25,40,29,.09); transition:.25s; }
+.game-selector-card:hover { transform:translateY(-5px); box-shadow:0 16px 38px rgba(25,40,29,.14); }
+.game-selector-icon { width:72px; height:72px; flex-shrink:0; display:flex; align-items:center; justify-content:center; border-radius:16px; font-size:35px; }
+.fs25-game-card .game-selector-icon { background:#e8f1e4; }
+.rust-game-card .game-selector-icon { background:#f0e7df; }
+.game-selector-card small { color:#6d9665; font-size:10px; font-weight:900; letter-spacing:1px; }
+.rust-game-card small { color:#98684f; }
+.game-selector-card h3 { margin:6px 0 8px; font-size:24px; }
+.game-selector-card p { margin-bottom:15px; color:#6d756e; font-size:14px; line-height:1.55; }
+.game-selector-card span { font-size:11px; font-weight:900; color:#4f7548; }
+.rust-game-card span { color:#89553c; }
+
+.game-project-heading { padding:70px 8% 0; background:#f5f0e5; }
+.game-project-heading > div { max-width:760px; }
+.game-project-heading span { color:#678e60; font-size:12px; font-weight:900; letter-spacing:1.3px; }
+.game-project-heading h2 { margin:8px 0 10px; font-size:38px; }
+.game-project-heading p { color:#687169; line-height:1.6; }
+
+.rust-projects-section { padding:90px 8%; background:#1d211e; }
+.rust-section-title span { color:#d49a76; }
+.rust-section-title h2 { color:#fff; }
+.rust-section-title p { color:#bec5bf; }
+.rust-coming-card { max-width:760px; padding:34px; display:flex; align-items:center; gap:25px; background:#282e29; border:1px solid #4a554c; border-radius:18px; color:#fff; }
+.rust-coming-icon { width:82px; height:82px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:#3b302a; border-radius:17px; font-size:40px; }
+.rust-coming-card small { color:#d49a76; font-size:10px; font-weight:900; letter-spacing:1.2px; }
+.rust-coming-card h3 { margin:6px 0 10px; font-size:27px; }
+.rust-coming-card p { margin-bottom:16px; color:#c7cec8; line-height:1.65; }
+.rust-coming-card span { display:inline-block; padding:9px 12px; background:#59402f; color:#f0c4a7; border-radius:7px; font-size:11px; font-weight:900; }
+
+@media (max-width:700px) {
+  .game-selector-section,.rust-projects-section { padding:60px 6%; }
+  .game-selector-grid { grid-template-columns:1fr; }
+  .game-selector-card { padding:24px 20px; align-items:flex-start; }
+  .game-selector-icon { width:58px; height:58px; font-size:29px; }
+  .game-selector-card h3 { font-size:20px; }
+  .game-project-heading { padding:55px 6% 0; }
+  .game-project-heading h2 { font-size:31px; }
+  .rust-coming-card { padding:27px 22px; flex-direction:column; align-items:flex-start; }
+}
