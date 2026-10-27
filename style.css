@@ -61,3 +61,37 @@ footer{padding:42px 7%;border-top:1px solid var(--line);text-align:center;color:
 .scrap-box .status{background:#514025;color:#f1ce8e}
 @media(min-width:851px){.game-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:650px){.scrap-box{padding:27px 22px}}
+
+/* REDDYWORKS V3 BRANDING */
+.header{min-height:82px}
+.brand-logo-link{display:flex;align-items:center;gap:10px}
+.brand-logo-link>img{width:54px;height:54px;border-radius:50%;object-fit:cover;box-shadow:0 0 20px rgba(255,35,35,.28)}
+.brand-word{font-size:23px}
+.hero{
+  min-height:720px;
+  background:
+    linear-gradient(90deg,rgba(6,8,7,.96) 0%,rgba(6,8,7,.82) 38%,rgba(6,8,7,.28) 70%,rgba(6,8,7,.48) 100%),
+    url("images/reddyworks-banner.png") center/cover no-repeat;
+}
+.hero:after{display:none}
+.hero-content{max-width:780px}
+.hero-brand-logo{width:130px;height:130px;object-fit:cover;border-radius:50%;box-shadow:0 0 35px rgba(255,30,30,.42);margin-bottom:18px}
+.about-section{background:#0d120f}
+.about-wrap{display:grid;grid-template-columns:220px minmax(0,720px);gap:45px;align-items:center;max-width:1050px;margin:auto}
+.about-logo{width:210px;height:210px;object-fit:cover;border-radius:50%;box-shadow:0 0 45px rgba(255,35,35,.22)}
+.about-head{margin-bottom:22px}
+.about-head p{color:#b5c0b7}
+.about-extra{margin-top:13px}
+@media(max-width:850px){
+  .brand-word{display:none}
+  .about-wrap{grid-template-columns:160px 1fr}
+  .about-logo{width:150px;height:150px}
+}
+@media(max-width:650px){
+  .brand-logo-link>img{width:48px;height:48px}
+  .hero{min-height:680px;background-position:center}
+  .hero-brand-logo{width:105px;height:105px}
+  .about-wrap{grid-template-columns:1fr;text-align:center}
+  .about-logo{margin:auto}
+  .about-head{text-align:left}
+}
