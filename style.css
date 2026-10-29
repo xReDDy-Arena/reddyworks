@@ -51,16 +51,16 @@ footer{padding:42px 7%;border-top:1px solid var(--line);text-align:center;color:
 @media(max-width:850px){.menu{gap:13px}.hero h1{font-size:55px}.project-grid,.community-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.header{height:auto;padding:15px 5%;flex-direction:column;gap:12px}.menu{flex-wrap:wrap;justify-content:center}.menu a{font-size:10px}.hero{min-height:570px;padding:70px 6%}.hero h1{font-size:43px;letter-spacing:-2px}.hero p{font-size:16px}.hero:after{font-size:180px}.section{padding:65px 6%}.section-head h2{font-size:33px}.game-grid,.project-grid,.community-grid,.stats{grid-template-columns:1fr}.page-hero{padding:65px 6% 55px}.page-hero h1{font-size:41px}.dev-card{flex-direction:column;align-items:flex-start}.feature,.rust-box{padding:27px 22px}}
 
-/* SCRAP MECHANIC */
-.game-card.scrap:hover{border-color:#b98c4d}
-.game-card.scrap .go{color:#e2b86c}
-.scrap-hero{background:radial-gradient(circle at 80% 30%,rgba(226,184,108,.16),transparent 28%),#15140f}
-.scrap-box{max-width:900px;padding:38px;border-radius:20px;background:#211d15;border:1px solid #5c4c32}
-.scrap-box h2{font-size:35px;margin:8px 0}
-.scrap-box p{color:#ccc4b5}
-.scrap-box .status{background:#514025;color:#f1ce8e}
+/* FIVEM */
+.game-card.fivem:hover{border-color:#f28a32}
+.game-card.fivem .go{color:#f28a32}
+.fivem-hero{background:radial-gradient(circle at 80% 30%,rgba(242,138,50,.16),transparent 28%),#121318}
+.fivem-box{max-width:900px;padding:38px;border-radius:20px;background:#211d15;border:1px solid #5c4c32}
+.fivem-box h2{font-size:35px;margin:8px 0}
+.fivem-box p{color:#ccc4b5}
+.fivem-box .status{background:#514025;color:#f1ce8e}
 @media(min-width:851px){.game-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:650px){.scrap-box{padding:27px 22px}}
+@media(max-width:650px){.fivem-box{padding:27px 22px}}
 
 /* REDDYWORKS V3 BRANDING */
 .header{min-height:82px}
@@ -135,7 +135,7 @@ footer{padding:42px 7%;border-top:1px solid var(--line);text-align:center;color:
 .dev-game-card strong{font-size:13px;color:#8ed276}
 .dev-icon{font-size:36px}
 .rust-card:hover{border-color:#d85c32}
-.scrap-card:hover{border-color:#ef9a2e}
+.fivem-card:hover{border-color:#f28a32}
 .project-highlight{display:flex;align-items:center;justify-content:space-between;gap:40px;padding:40px;border:1px solid #29362d;border-radius:20px;background:#101712}
 .status-pill{display:inline-block;margin-top:16px;padding:9px 14px;border:1px solid #50714f;border-radius:999px;color:#8ed276;font-weight:900;font-size:12px;letter-spacing:1px}
 .rw-goal{max-width:900px}
