@@ -19,6 +19,17 @@
 .fl-feedback h2{font-size:30px;margin-bottom:8px}
 .fl-feedback p{color:#aeb8b0;max-width:720px}
 @media(max-width:650px){.fl-release{padding:24px 19px}.fl-features{grid-template-columns:1fr}.fl-release h2{font-size:31px}}
+
+.fl-gallery{margin-top:28px}
+.fl-gallery h2{font-size:30px;margin:0 0 8px}
+.fl-gallery>p{color:#aeb8b0;margin:0 0 18px}
+.fl-shots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:start}
+.fl-shot{margin:0;padding:10px;border:1px solid #2a372e;border-radius:12px;background:#111713}
+.fl-shot img{display:block;width:100%;height:auto;border-radius:8px}
+.fl-shot figcaption{text-align:center;color:#c0cbc2;font-size:12px;font-weight:700;padding:10px 4px 2px}
+@media(max-width:900px){.fl-shots{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.fl-shots{grid-template-columns:1fr}.fl-shot{max-width:330px;margin:0 auto;width:100%}}
+
 </style>
 </head>
 <body>
@@ -58,6 +69,19 @@
 <div class="fl-feature">🔧 Service și 📈 Prețuri</div>
 <div class="fl-feature">👥 Contacte și 💬 Mesaje</div>
 <div class="fl-feature">🔒 Ecran de blocare și notificări</div>
+</div>
+</div>
+
+
+<div class="fl-gallery">
+<small class="section-label">CAPTURI DIN JOC</small>
+<h2>Vezi FarmLink în joc</h2>
+<p>Câteva capturi reale ale interfeței FarmLink din Farming Simulator 25.</p>
+<div class="fl-shots">
+<figure class="fl-shot"><img src="images/farmlink/farmlink-lockscreen.png" alt="FarmLink - Ecran de blocare" loading="lazy"><figcaption>Ecran de blocare</figcaption></figure>
+<figure class="fl-shot"><img src="images/farmlink/farmlink-home.png" alt="FarmLink - Meniu principal" loading="lazy"><figcaption>Meniu principal</figcaption></figure>
+<figure class="fl-shot"><img src="images/farmlink/farmlink-showroom.png" alt="FarmLink - Showroom" loading="lazy"><figcaption>Showroom</figcaption></figure>
+<figure class="fl-shot"><img src="images/farmlink/farmlink-service.png" alt="FarmLink - Service" loading="lazy"><figcaption>Service</figcaption></figure>
 </div>
 </div>
 
